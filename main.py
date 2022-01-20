@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
-from app.models import Song, SongCreate
+from models import Song, SongCreate
 
 app = FastAPI()
 
